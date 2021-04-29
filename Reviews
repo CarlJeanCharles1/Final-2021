@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  <link rel="stylesheet" href="externalstylesheet.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+    </script>
+  </head>
+  <body>
+<header>
+    <img src="Seasons-eatings.png"alt="Season's Eatings" id="banner">
+<ul id="navbar">
+      <li id="select"><a href="Index.html">Home</a></li>
+	  <li id="select"><a href="meals.html">Meals</a>
+	  <div class="sub-menu-1">
+  						<ul>
+                <li><a href="meal1.html">Pecan Pie</a></li>
+                <li><a href="meal2.html">Eggnog</a></li>
+                <li><a href="meal3.html">Honey Baked Ham</a></li>
+  						</ul>
+  					</div>
+	  <li id="select"><a href="gallery.html">Gallery</a></li>
+	  <li id="select"><a href="contactUs.html">Contact Us</a></li>
+	  </li>
+</header>
+
+ </div>
+</div>
+</div>
+<br>
+<b> Recipes Coming Soon!</b>
+<br>
+<br>
+    <div class="box">
+  <div class="table">
+    <!---content-------------------------------------------------------------------->
+    <div class="centergal">
+	<div class="row">
+	<picture>
+  <source srcset="ballz.jpg" type="image/svg+xml">
+  <img src="ballz.jpg" class="img-fluid img-thumbnail img-circle" alt="Holiday Food" style="width: 25%;">    
+</picture> 
+
+<picture>
+  <source srcset="bread.jpg" type="image/svg+xml">
+  <img src="bread.jpg" class="img-fluid img-thumbnail img-circle" alt="Holiday Food" style="width: 25%;">    
+</picture> 
+<picture>
+  <source srcset="brownie.jpg" type="image/svg+xml">
+  <img src="brownie.jpg" class="img-fluid img-thumbnail img-circle" alt="Holiday Food" style="width: 25%;">    
+</picture> 
+	</div>
+	<br>
+<div class="row">
+	<picture>
+  <source srcset="chicken.jpeg" type="image/svg+xml">
+  <img src="chicken.jpeg" class="img-fluid img-thumbnail img-circle" alt="Holiday Food" style="width: 25%;">    
+</picture>  
+
+ <picture>
+  <source srcset="cook.jpg" type="image/svg+xml">
+  <img src="cook.jpg" class="img-fluid img-thumbnail img-circle" alt="Holiday Food" style="width: 25%;">    
+</picture>
+  <picture>
+  <source srcset="fatboi.jpg" type="image/svg+xml">
+  <img src="fatboi.jpg" class="img-fluid img-thumbnail img-circle" alt="Holiday Food" style="width: 25%;">    
+</picture>
+	</div>
+	<br>
+<div class="row">
+  <picture>
+  <source srcset="lick.jpg" type="image/svg+xml">
+  <img src="lick.jpg" class="img-fluid img-thumbnail img-circle" alt="Holiday Food" style="width: 25%;">    
+</picture>
+
+<picture>
+  <source srcset="turk.jpg" type="image/svg+xml">
+  <img src="star.jpg" class="img-fluid img-thumbnail img-circle" alt="Holiday Food" style="width: 25%;">    
+</picture>
+	<picture>
+  <source srcset="star.jpg" type="image/svg+xml">
+  <img src="star.jpg" class="img-fluid img-thumbnail img-circle" alt="Holiday Food" style="width: 25%;">    
+</picture>
+	</div>
+	</div>
+	</div>
+	</div>
+<br>
+<br>
+<br>
+<br>	
+<br>
+<br>
+<br>
+<br>	
+<br>
+<br>
+<footer>
+    <I><p><b>Postal Address: 926 Scheuvront Drive, South Kingston, RI, USA. </p></b></I>
+  <p><b>Copyright © 2020 All rights reserved.</p>
+</footer>  
+  </body>
+</html>
