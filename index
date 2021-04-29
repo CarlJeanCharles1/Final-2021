@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+      
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!- stlyesheet from another website ->
+    <title> InvestBest </title>
+     
+    <!-the name of the title is what the tab will say when you go on it->
+
+  </head>
+ <body style="background-color:green">
+     
+     <div class="content">
+         
+  <!-Made this nav bar with the help of this video https://www.youtube.com/watch?v=STTxKqulkZU use these navbar links on the rest of the pages it should be a little easier now.->
+  
+  <h1 id="Title">InvestBest</h1>
+           
+         <!--- maybe put a banner here--->
+         
+     <nav id="Inav">
+         
+        <button><a href="index.html"> Home </a> </button>
+        <button><a href="S.T.L.O.F.html"> Stocks To Look Out For </a> </button>
+        <button><a href="strategies.html"> Strategies </a> </button>
+        <button><a href="ETF.html"> ETFs </a></button>
+         <button><a href="blogs.html"> Wisdom </a></button>
+        <!---
+            <div class="sub-menu-1">
+                <ul>
+                    <li>
+                        <a href="Mission%20Statement.html">Mission Statement/Background</a>
+                    </li>
+                 </ul>
+             </div>
+        --->
+    </nav>
+    
+        <h3 id="Shrink">Welcome!</h3>  
+      <header> <span id="Shrink"> "TO THE MOON!" </span> 
+ </header>
+
+    <img src="images/Using-Graham-Formula-Find-Underpriced-Stocks.jpg" alt="Stonks" id="image"><br>
+     
+<p>Welcome to the best place to educate yourself on the stock market! I know the market can be a scary place to navigate the first time around but trust me in the end it's all worth it. Let this website be the first to help you get your feet wet in the market. We can help with strategies and define confusing topics. We are here to serve as a beginners website and we strive to make the market more accessible for the average everyday person. So come with questions and enthusiasm and maybe one day we can all reach the moon!
+ </p>
+         
+       </div>
+    <script src="java2.js"> 
+     </script>
+      <script src="jq/jquery.js"> </script>
+     
+     <script>
+     $(document).ready(function() {
+         
+       $("button").click(function(){
+           $("#Inav:first").hide();
+       });  
+     });
+         
+     </script>
+</body>
+</html>
+<footer> <p>This is not investment advise do not sue me</p></footer>
+
