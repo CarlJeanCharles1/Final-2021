@@ -33,12 +33,12 @@ app.get('/movielist.html', (req, res) => {
     res.render('movielist', {title: 'Movie List' } );
 });
 
-app.get('/strategies', (req, res) => {
-    res.render('strategies', {title: 'strategies' } );
+app.get('/Reviews.html', (req, res) => {
+    res.render('Reviews', {title: 'Reviews' } );
 });
 
-app.get('/wisdom', (req, res) => {
-    res.render('wisdom', {title: 'wisdom' } );
+app.get('/index.html', (req, res) => {
+    res.render('Index', {title: 'Index' } );
 });
 
 app.listen(port, () => {
