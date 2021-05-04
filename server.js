@@ -29,8 +29,8 @@ app.get('/ContactUs-Register.html', (req, res) => {
     res.render('ContactUs-Register', {title: 'Contact Us' } );
 });
 
-app.get('/STLOF', (req, res) => {
-    res.render('STLOF', {title: 'Stocks To Look Out For' } );
+app.get('/movielist.html', (req, res) => {
+    res.render('movielist', {title: 'Movie List' } );
 });
 
 app.get('/strategies', (req, res) => {
