@@ -25,8 +25,8 @@ app.get("/index", (req, res) => {
     });
 });
 
-app.get('/ETF', (req, res) => {
-    res.render('ETF', {title: 'ETF' } );
+app.get('/ContactUs-Register.html', (req, res) => {
+    res.render('ContactUs-Register', {title: 'Contact Us' } );
 });
 
 app.get('/STLOF', (req, res) => {
