@@ -36,7 +36,9 @@ h1, h3 {
     text-align: center;
     align-content: center;
     padding: 3px;
+    font-weight: bold;
 }
+
 
 .para{
     color:#799351
