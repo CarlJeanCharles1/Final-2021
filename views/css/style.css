@@ -61,7 +61,15 @@ h1 {
 }
 
 
-#pic{
-
+#pic, #pic1, #pic2, #pic3, #pic4,#pic5, #pic6, #pic7, #pic8, #pic9, #pic10, #pic11, #pic12, #pic13, #pic14{
   width: 15vw;
+}
+
+.toxic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
 }
