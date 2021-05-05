@@ -30,7 +30,7 @@ b {
     align-content: center;
     padding: 14px;
 }
-h1 {
+h1, h3 {
     font-family: lobster;
     font-size: 4vw;
     text-align: center;
@@ -72,4 +72,10 @@ h1 {
   transform: translate(-50%, -50%);
   background-color: black;
   color: white;
+}
+
+.centergal {
+  position: relative;
+  text-align: center;
+  color: Black;
 }
