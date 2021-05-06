@@ -85,3 +85,40 @@ h1, h3 {
 .new {
   text-size-adjust: 8vw;
 }
+
+#information{
+  font-size: 25px;
+  display:inline-block;
+  margin: 0 1.5%;
+  width: 45%;
+  background-color: #aa3a3a;
+  padding: 20px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 5px;
+  line-height: 1.5em;
+}
+
+#list{
+  font-size: 25px;
+  display:inline-block;
+  margin: 0 1.5%;
+  width: 45%;
+  background-color: #aa3a3a;
+  padding: 20px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  
+  line-height: 1.5em;
+}
+
+#para{
+  background-color: #aa3a3a;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 20px;
+
+}
