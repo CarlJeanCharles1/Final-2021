@@ -85,3 +85,14 @@ h1, h3 {
 .new {
   text-size-adjust: 8vw;
 }
+
+#Inav{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+#content{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
