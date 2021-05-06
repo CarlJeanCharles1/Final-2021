@@ -115,7 +115,47 @@ h1, h3 {
 }
 
 #para{
+  background-color: #007bff;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 20px;
+
+}
+#title{
+  background-color: #007bff;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 20px;
+
+}
+
+#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #p12, #p13, #p14, #p15{
   background-color: #aa3a3a;
+  color:white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 10px;
+}
+
+#movieList{
+  background-color: #007bff;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 20px;
+
+}
+
+#reviews{
+  background-color: #007bff;
   border-color: black;
   border-width: 2px;
   border-style: solid;
