@@ -12,12 +12,6 @@ function hideKeySetup() {
 }
 
 
-/*   DO NOT edit anything ABOVE this comment.  DO NOT edit anything ABOVE this comment. */
-
-
-
-/* COMPLETE the functions BELOW this comment.   COMPLETE the functions BELOW this comment.  */
-
 
 /* TO DO */
 function getImages(term) {

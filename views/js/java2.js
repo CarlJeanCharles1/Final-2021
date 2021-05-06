@@ -1,6 +1,11 @@
 $(document).ready(function() {
 
-    $("p").hide();
+  $("p").hide();
+ 
+  $("#pic1").hover(function() {
+    $("#p1").show();
+  }, function() {
+    $("#p1").hide();
    
     $("#pic1").hover(function() {
       $("#p1").show();
@@ -90,4 +95,4 @@ $(document).ready(function() {
         $("#p15").hide();
       });
   });
-  
+});
