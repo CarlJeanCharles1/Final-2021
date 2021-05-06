@@ -55,5 +55,39 @@ $(document).ready(function() {
     }, function() {
       $("#p9").hide();
     });
+    $("#pic10").hover(function() {
+        $("#p10").show();
+      }, function() {
+        $("#p10").hide();
+      });
+      
+       $("#pic11").hover(function() {
+        $("#p11").show();
+      }, function() {
+        $("#p11").hide();
+      });
+      
+       $("#pic12").hover(function() {
+        $("#p12").show();
+      }, function() {
+        $("#p12").hide();
+      });
+      
+       $("#pic13").hover(function() {
+        $("#p13").show();
+      }, function() {
+        $("#p13").hide();
+      });
+      
+       $("#pic14").hover(function() {
+        $("#p14").show();
+      }, function() {
+        $("#p14").hide();
+      });
+      $("#pic15").hover(function() {
+        $("#p15").show();
+      }, function() {
+        $("#p15").hide();
+      });
   });
   
