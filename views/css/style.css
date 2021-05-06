@@ -5,6 +5,7 @@ background-color: #f8e4b7 !important;
     display: block;
     max-width: 1000%;
   margin: auto;
+  overflow-x: hidden;
 }
 
 a {
@@ -95,9 +96,13 @@ h1, h3 {
   margin: auto;
   width: 50%;
   padding: 10px;
+<<<<<<< HEAD
+#information{
+=======
 }
 
   #information{
+>>>>>>> d39b4912b16de5a337cfdcf2bf24cd42daf8f2e3
   font-size: 25px;
   display:inline-block;
   margin: 0 1.5%;
@@ -172,5 +177,9 @@ h1, h3 {
   border-style: solid;
   margin-top: 20px;
 
+<<<<<<< HEAD
+}
+=======
 }
 
+>>>>>>> d39b4912b16de5a337cfdcf2bf24cd42daf8f2e3
