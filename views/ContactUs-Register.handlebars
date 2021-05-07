@@ -1,50 +1,57 @@
-<h1> Register </h1>
-<div class ="row">
-  <div class="col-lg 4"  "col-lg 4">
-    <form action="/signin" method="POST" id="form" enctype="multipart/form-data">
-      <fieldset><legend> Returning User </legend>
-       <!--Name="EmailTestForm -->
-       <br>
-        <div>
-          <label for="email">Username</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div>
-          <label for="password">Password</label>
-          <input type="password" id="password" name="password" required>
-        </div>
-          <button type="submit"  value="Register"> Register </button>
-    </form>
+<div class= "register-form">
+  <h1> Register <a href="dashboard.html"></a> </h1>
+  <div class ="row">
+    <p>
+    <div class="col-lg 4"  "col-lg 4">
+      <form action="/login" method="POST" id="form">
+        <fieldset><legend> Returning User </legend>
+         <!--Name="EmailTestForm -->
+         <br>
+          <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+            <button type="submit"  value="login"> Log In </button>
+      </form>
+    </div>
+    <div class="col-lg 4" "col-lg 4">
+      <form action="/register" method="POST" id="form">
+        <fieldset><legend> New User </legend>
+         <!--Name="EmailTestForm -->
+         <br>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+            <button type="submit"  value="Register"> Register </button>
+      </form>
+    </div>
   </div>
-  <div class="col-lg 4" "col-lg 4">
-    <form action="/signup" method="POST" id="form" enctype="multipart/form-data">
-      <fieldset><legend> New User </legend>
-       <!--Name="EmailTestForm -->
-       <br>
-        <div>
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required>
-        </div>
-        <div>
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div>
-          <label for="password">Password</label>
-          <input type="password" id="password" name="password" required>
-        </div>
-          <button type="submit"  value="Register"> Register </button>
-    </form>
-  </div>
+  <br>
+  <br>
+  <br>
+  <img src="lines.jpg">
+      <p> Address:</p>
+      <p> 926 Scheuvront Drive</p>
+      <p> South Kingston</p>
+      <b><p>RI</p></b>
+      <p>Phone Number: 303-451-9394</p>
+  <br>
+  <br>
 </div>
-<br>
-<br>
-<br>
-<img src="lines.jpg">
-    <p> Address:</p>
-    <p> 926 Scheuvront Drive</p>
-    <p> South Kingston</p>
-    <b><p>RI</p></b>
-    <p>Phone Number: 303-451-9394</p>
-<br>
-<br>
