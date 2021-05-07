@@ -1,7 +1,7 @@
 body{
 background-color: #f8e4b7 !important;
   text-align: center;
-    content: center; 
+    content: center;
     display: block;
     max-width: 1000%;
   margin: auto;
@@ -43,7 +43,7 @@ h1, h3 {
 
 .para{
     color:#799351
-} 
+}
 #navbar {
   list-style-type: none;
   margin: auto;
@@ -123,7 +123,7 @@ h1, h3 {
   border-color: black;
   border-width: 2px;
   border-style: solid;
-  
+
   line-height: 1.5em;
 }
 
@@ -176,4 +176,6 @@ h1, h3 {
 
 }
 
-
+form{
+  background-color: #AA3A3A;
+}

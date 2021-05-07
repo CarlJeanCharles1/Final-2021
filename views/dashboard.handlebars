@@ -1,3 +1,36 @@
 <h1 id="title"> Profile </h2>
-<p><b>Under construction</p>
-<p><a href="/logout">Logout</a></p>
+<button><a href="/logout">Logout</a></button>
+<div>
+<p><b>We want to hear from you. Your opinion would be much appreciated. Thank You!</p>
+  <form action="mailto:m_jackson24@my.uri.edu" id="form" method="POST" onSubmit="return contactInfo();">
+    <fieldset><legend>Movie Review</legend> <label for="Name">Name: <input name=" " type="text" id="name"/> </label><br />
+    <br />
+    <label for="Phone">Phone: <input name=" " type="tel" id="phone" /> </label><br />
+    <br />
+    What rating would you give the movie overall? (1 = Awful, 10 = Great)<br />
+    <input checked="checked" name="rating" type="radio" /> 1 <br />
+    <input checked="checked" name="rating" type="radio"  /> 2 <br />
+    <input checked="checked" name="rating" type="radio" /> 3 <br />
+    <input checked="checked" name="rating" type="radio"/> 4 <br />
+    <input checked="checked" name="rating" type="radio" /> 5 <br />
+    <input checked="checked" name="rating" type="radio"  /> 6 <br />
+    <input checked="checked" name="rating" type="radio" /> 7 <br />
+    <input checked="checked" name="rating" type="radio"/> 8 <br />
+    <input checked="checked" name="rating" type="radio" /> 9 <br />
+    <input checked="checked" name="rating" type="radio"  /> 10 <br />
+    <br />
+    Would you recommend this movie to your friends?<br />
+    <input checked="checked" name="level" type="radio" />Yes<br />
+    <input checked="checked" name="level" type="radio"/>Maybe<br />
+    <input checked="checked" name="level" type="radio" />No<br />
+    <br />
+    Would you watch the movie again if you had the chance? <br />
+    <input checked="checked" name="repeat" type="radio"/> Yes <br />
+    <input checked="checked" name="repeat" type="radio" /> No <br />
+    <br />
+    Anything else we need to know:<br />
+    <textarea cols="25" name="comments" rows="20"></textarea><br />
+    <input type="submit" value="Submit" /></fieldset>
+  </form>
+</div>
+<script src= "java4.js"></script>
